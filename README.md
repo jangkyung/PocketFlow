@@ -4,7 +4,11 @@ PocketFlow is an open-source framework for compressing and accelerating deep lea
 
 PocketFlow aims at providing an easy-to-use toolkit for developers to improve the inference efficiency with little or no performance degradation. Developers only needs to specify the desired compression and/or acceleration ratios and then PocketFlow will automatically choose proper hyper-parameters to generate a highly efficient compressed model for deployment.
 
+PocketFlow was originally developed by researchers and engineers working on machine learning team within Tencent AI Lab for the purposes of compacting deep neural networks with industrial applications.
+
 For full documentation, please refer to [PocketFlow's GitHub Pages](https://pocketflow.github.io/). To start with, you may be interested in the [installation guide](https://pocketflow.github.io/installation/) and the [tutorial](https://pocketflow.github.io/tutorial/) on how to train a compressed model and deploy it on mobile devices.
+
+For general discussions about PocketFlow development and directions please refer to [PocketFlow Google Group](https://groups.google.com/forum/#!forum/pocketflow). If you need a general help, please direct to [Stack Overflow](https://stackoverflow.com/). You can report issues, bug reports, and feature requests on [GitHub Issue Page](https://github.com/Tencent/PocketFlow/issues).
 
 ## Framework
 
@@ -73,6 +77,19 @@ The resulting model can be deployed on mobile devices for faster inference (Devi
 | MobileNet-v2 | 71.84%        | 72.26% (+0.42%) | 120.59        | 49.04 (2.46x) |
 
 * All the reported time are in milliseconds.
+
+## Citation
+
+Please cite PocketFlow in your publications if it helps your research:
+
+``` bibtex
+@incollection{wu2018pocketflow,
+  author = {Jiaxiang Wu and Yao Zhang and Haoli Bai and Huasong Zhong and Jinlong Hou and Wei Liu and Junzhou Huang},
+  title = {PocketFlow: An Automated Framework for Compressing and Accelerating Deep Neural Networks},
+  booktitle = {Advances in Neural Information Processing Systems (NIPS), Workshop on Compact Deep Neural Networks with Industrial Applications},
+  year = {2018},
+}
+```
 
 ## Reference
 
